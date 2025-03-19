@@ -41,4 +41,5 @@ async def report_command(message: Message):
     await message.reply("Репорт отправлен администрации!")
 
 if __name__ == "__main__":
+
     executor.start_polling(dp, skip_updates=True)
